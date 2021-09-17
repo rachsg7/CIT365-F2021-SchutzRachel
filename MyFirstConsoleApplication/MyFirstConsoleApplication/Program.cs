@@ -24,7 +24,7 @@ namespace MyFirstConsoleApplication
             int daysUntilChristmas;
             DateTime christmas = new DateTime(date.Year, 12, 25);
 
-            switch(date.Month)
+            switch (date.Month)
             {
                 case 1:
                     month = "January";
@@ -90,7 +90,7 @@ namespace MyFirstConsoleApplication
             ChristmasCountdown(DateTime.Now);
             GlazerApp.RunExample();
 
-            Console.WriteLine("Press any key to close finish the program.");
+            Console.WriteLine("Press any key to finish the program.");
             Console.ReadKey();
         }
     }

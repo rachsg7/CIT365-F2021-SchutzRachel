@@ -2,7 +2,7 @@
 
 public static class GlazerApp
 {
-	public static void RunExample()
+    public static void RunExample()
     {
         double width, height, woodLength, glassArea;
         string widthString, heightString;
