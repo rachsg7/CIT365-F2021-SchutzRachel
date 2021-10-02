@@ -86,12 +86,15 @@ namespace MyFirstConsoleApplication
         }
         static void Main(string[] args)
         {
-            GetUserNameAndLocation();
+            int x = 4; int y = 9;
+            x = (y % x != 0) ? y / x : y;
+            Console.WriteLine(x);
+            /*GetUserNameAndLocation();
             ChristmasCountdown(DateTime.Now);
             GlazerApp.RunExample();
 
             Console.WriteLine("Press any key to finish the program.");
-            Console.ReadKey();
+            Console.ReadKey();*/
         }
     }
 }
