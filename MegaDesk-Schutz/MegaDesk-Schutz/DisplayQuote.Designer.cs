@@ -346,7 +346,7 @@ namespace MegaDesk_Schutz
             this.Controls.Add(this.displayQuoteBackButton);
             this.Controls.Add(this.panel1);
             this.Name = "DisplayQuote";
-            this.Text = "DisplayQuote";
+            this.Text = "Display Quote";
             this.Load += new System.EventHandler(this.DisplayQuote_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
