@@ -1,0 +1,48 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&display=swap');
+
+$primary: #B97375;
+$secondary: #CEB1BE;
+$light: #F1E4E8;
+$dark: #2D2D34;
+$white: white;
+
+
+
+@import "../lib/bootstrap/scss/bootstrap";
+
+div.side-card {
+    max-width: 400px;
+    padding: 2em;
+    background-color: #B97375;
+    position: absolute;
+    top: 240px;
+    color: $white;
+}
+
+.text-danger {
+    color: $danger !important;
+    margin: 1em;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Cormorant Garamond', serif !important;
+}
+
+body {
+    background-color: $white;
+}
+
+a.text-light, a.navbar, a.navbar-brand {
+    color: $white!important;
+}
+
+nav.navbar {
+    background-color: $dark;
+    color: $white;
+}
+
+
